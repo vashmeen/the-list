@@ -15,7 +15,7 @@ import { ThemeProvider } from 'next-themes'
 import { createBrowserSupabaseClient } from '@supabase/auth-helpers-nextjs';
 import { SessionContextProvider, Session } from '@supabase/auth-helpers-react';
 import { useUser } from '@supabase/auth-helpers-react';
-
+import supabaseClient from '@/utils/supabase';
 export default function App({ Component, pageProps }: AppProps) {
   return (
   <SessionContextProvider
