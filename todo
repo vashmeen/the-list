@@ -1,0 +1,5 @@
+caveats of next.js 13 appDir
+
+UnoCSS classes dont update in server only pages. you need to have them in a client side comp
+
+You need to put all top level providers in a separate client side component 
